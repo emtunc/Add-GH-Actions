@@ -1,0 +1,11 @@
+name: "CodeQL Config"
+
+disable-default-queries: false
+
+queries:
+  - name: security-extended
+    uses: security-extended
+
+paths-ignore:
+  - '**/node_modules/'
+  - '/e2e/'
